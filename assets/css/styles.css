@@ -1,0 +1,241 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Cuprum', sans-serif !important;
+}
+.logo{
+    max-width: 10% !important;
+}
+#galeria img{
+    width: 100%;
+    height: 190px;
+}
+#galeria .col-lg-4{
+    margin: 0 !important;
+    padding: 25px;
+}
+#galeria img:hover{
+    border: 5px solid #f7f7f7;
+}
+.img-thumbnail{
+    max-width: 50% !important;
+    margin-left: 150px;
+}
+nav{
+    background-color: rgb(202, 207, 210) !important;
+}
+.lateral{
+    background-color: rgb(202, 207, 210) !important;
+}
+
+a{
+    color: black !important;
+    font-weight: bold !important;
+    font-size: 17px !important;
+}
+.card-title{
+    color: black !important;
+}
+.wave-container {
+    position: relative;
+    background: rgb(109, 173, 247);
+    color: #FFF;
+    overflow: hidden;
+}
+
+.demeone:hover{
+    background-image: url(../img/Imagen_cambio.jpg) !important;
+}
+
+
+.efect{
+    box-shadow: 3px 1px 2px rgba(92, 92, 92, 0.493) !important;
+    transition: 0.5s;
+}
+.efect:hover{
+    transform: scale(1.1);
+}
+.efect_one:hover{
+    background-image: url(../img/01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+.efect_two:hover{
+    background-image: url(../img/02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.efect_three:hover{
+    background-image: url(../img/medico.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.programas{
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.programas h1{
+    color: black !important;
+    font-weight: bold;
+}
+.programas p{
+    color: black !important;
+}
+footer{
+    margin: 0px auto !important;
+}
+.start{
+    word-spacing: 5px !important;
+}
+.redes{
+    float: right !important;
+}
+textarea{
+    resize: none !important;
+}
+.hidden{
+    overflow: hidden;
+}
+.imagen_inicio{
+    display: block !important;
+    margin: 0px auto !important;
+}
+.centrar{
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    position: absolute;
+    margin: 0px auto !important;
+    left: 555px;
+    top: 40px;
+}
+.lds-roller {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    }
+    .lds-roller div {
+    animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    transform-origin: 40px 40px;
+    }
+    .lds-roller div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: rgb(1, 142, 212);
+    margin: -4px 0 0 -4px;
+    }
+    .lds-roller div:nth-child(1) {
+    animation-delay: -0.036s;
+    }
+    .lds-roller div:nth-child(1):after {
+    top: 63px;
+    left: 63px;
+    }
+    .lds-roller div:nth-child(2) {
+    animation-delay: -0.072s;
+    }
+    .lds-roller div:nth-child(2):after {
+    top: 68px;
+    left: 56px;
+    }
+    .lds-roller div:nth-child(3) {
+    animation-delay: -0.108s;
+    }
+    .lds-roller div:nth-child(3):after {
+    top: 71px;
+    left: 48px;
+    }
+    .lds-roller div:nth-child(4) {
+    animation-delay: -0.144s;
+    }
+    .lds-roller div:nth-child(4):after {
+    top: 72px;
+    left: 40px;
+    }
+    .lds-roller div:nth-child(5) {
+    animation-delay: -0.18s;
+    }
+    .lds-roller div:nth-child(5):after {
+    top: 71px;
+    left: 32px;
+    }
+    .lds-roller div:nth-child(6) {
+    animation-delay: -0.216s;
+    }
+    .lds-roller div:nth-child(6):after {
+    top: 68px;
+    left: 24px;
+    }
+    .lds-roller div:nth-child(7) {
+    animation-delay: -0.252s;
+    }
+    .lds-roller div:nth-child(7):after {
+    top: 63px;
+    left: 17px;
+    }
+    .lds-roller div:nth-child(8) {
+    animation-delay: -0.288s;
+    }
+    .lds-roller div:nth-child(8):after {
+    top: 56px;
+    left: 12px;
+    }
+    @keyframes lds-roller {
+    0% {
+    transform: rotate(0deg);
+    }
+    100% {
+    transform: rotate(360deg);
+    }
+}
+.gris{
+    background-color: rgb(231, 237, 243) !important; 
+}
+.top-nav-collapse{
+    background: rgb(109, 173, 247) !important;   
+   /*  background: gray;*/
+}
+.color_fondo{
+    background: rgb(158, 200, 248) !important;   
+}
+.card{
+    background-color: rgba(255, 255, 255, 0.658) !important;
+}
+
+.btn:hover{
+    background-color: rgb(131, 192, 111) !important;
+}
+.informacion{
+    background-color: rgb(0, 223, 100) !important;
+}
+.bienvenido{
+    background-color: rgba(199, 199, 253, 0.308) !important;
+    border-radius: 4px !important;
+    box-shadow: 1px 3px 6px rgb(169, 169, 236);
+}
+.titulo{
+    font-family: 'Cuprum', sans-serif !important;
+    color: blue !important;
+}
+.texto{
+    font-family: 'Cuprum', sans-serif !important;
+}
+.fuente{
+    font-weight: bold !important;
+}
+.fondon{
+    background-color: rgb(218, 216, 216);
+}
+
