@@ -279,11 +279,9 @@
         </div>
     </div>
 </div>
-<section id="contacto" class="container p-4 mt-1 border-bottom border-3 border-dark">
-    <span>Contacto</span>
-</section>
-<section class="container">
-    <div class="col-md-12 p-4 mb-5">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#6DADF7" fill-opacity="1" d="M0,128L60,160C120,192,240,256,360,250.7C480,245,600,171,720,165.3C840,160,960,224,1080,218.7C1200,213,1320,139,1380,101.3L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+<section class="wave-container">
+    <div class="container">
         <h3 class="mb-3">Formulario de contacto</h3>
         <form class="needs-validation" id="formulario" action="correos.php" method="POST" enctype="multipart/form-data" novalidate>
             <div class="form-group mb-4">
@@ -413,11 +411,12 @@
                             Porfavor ingresa tu solicitud
                         </div>
                     </div>
-                    <button type="submit" id="enviar" class="btn btn-success wow animate__wobble" name="form_contact">Enviar</button>
+                    <button type="submit" id="enviar" class="btn btn-success mb-5 wow animate__wobble" name="form_contact">Enviar</button>
                 </div>
             </div>
         </form>
     </div>
     </div>
 </section>
+
 <?php include('includes/footer.php') ?>

@@ -52,11 +52,20 @@ $(document).ready(function () {
     // mostrar campos segun el usuario de contacto
     $('#datos_paciente').hide();
     $('#usuario').change(function(){
-        if($('#usuario').val() == 'acudiente'){
-            $("#datos_paciente").show();
-        }
         if($('#usuario').val() == 'paciente'){
-            $("#datos_paciente").hide();
+            $('#datos_paciente').css('display','none');
+            $("#namepa").attr("disabled",true);
+            $("#namepa").append('N/A');
+            $("#apellidopa").attr("disabled",true);
+            $("#tipoidpa").attr("disabled",true);
+            $("#cedulapaciente").attr("disabled",true);
+        }
+        if($('#usuario').val() == 'acudiente'){
+            $('#datos_paciente').css('display','block');
+            $("#namepa").attr("disabled",false);
+            $("#apellidopa").attr("disabled",false);
+            $("#tipoidpa").attr("disabled",false);
+            $("#cedulapaciente").attr("disabled",false);
         }
     });
     
