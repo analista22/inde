@@ -58,22 +58,34 @@
   <h2 class="text-center mb-5 font-weight-bold titulo">Aliados</h2>
   <div class="row">
     <div class="col-md-2">
-      <img src="assets/img/logos/famisanar.png" class="img-fluid" width="150px" alt="logo">
+      <a href="https://www.famisanar.com.co" target="_blanck">
+        <img src="assets/img/logos/famisanar.png" class="img-fluid" width="150px" alt="logo">
+      </a>
     </div>
     <div class="col-md-2">
-      <img src="assets/img/logos/sanitas.png" class="img-fluid" width="150px" alt="logo">
+      <a href="https://www.epssanitas.com/usuarios/web/nuevo-portal-eps#gsc.tab=0" target="_blanck">
+        <img src="assets/img/logos/sanitas.png" class="img-fluid" width="150px" alt="logo">
+      </a>
     </div>
     <div class="col-md-2">
-      <img src="assets/img/logos/seguros-sura.png" class="img-fluid" width="150px" alt="logo">
+      <a href="https://www.segurossura.com.co/paginas/default.aspx" target="_blanck">
+        <img src="assets/img/logos/seguros-sura.png" class="img-fluid" width="150px" alt="logo">
+      </a>
     </div>
     <div class="col-md-2">
-      <img src="assets/img/logos/sura.png" class="img-fluid" width="150px" alt="logo">
+      <a href="https://www.epssura.com" target="_blanck">
+        <img src="assets/img/logos/sura.png" class="img-fluid" width="150px" alt="logo">
+      </a>
     </div>
     <div class="col-md-2">
-      <img src="assets/img/logos/logo-salud-total.svg" class="img-fluid" width="150px" alt="logo">
+      <a href="https://saludtotal.com.co" target="_blanck">
+        <img src="assets/img/logos/logo-salud-total.svg" class="img-fluid" width="150px" alt="logo">
+      </a>
     </div>
     <div class="col-md-2">
-      <img src="assets/img/logos/nueva_eps.png" class="img-fluid" width="150px" alt="logo">
+      <a href="https://www.nuevaeps.com.co" target="_blanck">.
+        <img src="assets/img/logos/nueva_eps.png" class="img-fluid" width="150px" alt="logo">
+      </a>
     </div>
   </div>
 </div>
