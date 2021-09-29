@@ -25,7 +25,7 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.0/dist/jquery.validate.js"></script>
     <script src="assets/js/cargar.js"></script>
     <script src="assets/js/main.js"></script>
-    <title>Inde</title>
+    <title>Instituto Nacional de Demencias Emanuel</title>
 </head>
 <nav class="navbar navbar-expand-lg navbar-light scrolling-navbar sticky-top">
     <div class="container">
