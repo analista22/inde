@@ -331,7 +331,7 @@
                             Porfavor ingresa el numero de identificacion
                         </div>
                     </div>
-                    <div id="datos_paciente">
+                    <div id="datos_paciente" class="mb-5">
                         <hr class="border-bottom border-3 border-dark">
                         <div class="form-group">
                             <label class="col-form-label col-form-label-sm wow animate__fadeInDown" for="inputSmall">Nombres del paciente*</label>
