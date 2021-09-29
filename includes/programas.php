@@ -8,7 +8,10 @@
         <div class="row d-flex justify-content-center">
             <div id="prom1" class="col-md-4">
                 <div class="card efect_one efect mb-5">
-                    <img src="assets/img/icono1.png" class="img-fluid mx-auto mt-3" width="100" alt="p2">
+                    <div id="img_prom01">
+                        <img src="assets/img/icono1.png" class="img-fluid mt-3" width="100" alt="p2">
+                        <img src="assets/img/invisible.png" id="invisible" class="img-fluid mt-3" width="100" alt="p2">
+                    </div>
                     <div class="card-body">
                         <p class="card-text texto">Programa de atención Integral en Demencias</p>
                         <!--Boton-Modal de información sobre los programas-->
@@ -29,8 +32,7 @@
                         <div class="modal-body">
                             <h5 class="titulo">Definición</h5>
                             <p class="texto">El programa de rehabilitación integral en demencias procura mejorar la calidad de vida de pacientes con diagnóstico de
-                                demencia, así como de sus familiares mediante la prestación de diversos servicios terapéuticos especializados, individu-
-                                ales y grupales
+                                demencia, así como de sus familiares mediante la prestación de diversos servicios terapéuticos especializados, individuales y grupales
                             </p>
                             <h5 class="titulo">Metodología</h5>
                             <p class="texto">El desarrollo de las actividades terapéuticas del Programa de Rehabilitación Integral en Demencias se centra en la
@@ -52,7 +54,10 @@
             </div>
             <div id="prom2" class="col-md-4">
                 <div id="tarjeta" class="card efect_two efect mb-5">
-                    <img src="assets/img/icono3.png" class="img-fluid mx-auto mt-3" width="100" alt="p1">
+                    <div class="img_prom02">
+                        <img src="assets/img/invisible.png" id="invisible2" class="img-fluid mt-3" width="100" alt="p2">
+                        <img src="assets/img/icono3.png" class="img-fluid mx-auto mt-3" width="100" alt="p1">   
+                    </div>  
                     <div class="card-body">
                         <p class="card-text texto">Programa de atención actividades de la vida diaria</p>
                         <!--Boton-Modal de información sobre los programas-->
@@ -95,7 +100,9 @@
 
             <div id="prom3" class="col-md-4">
                 <div class="card efect_three efect mb-5">
-                    <img src="assets/img/icono2.png" class="img-fluid mx-auto mt-3" width="100" alt="p2">
+                    <div class="img_prom03">
+                        <img src="assets/img/icono2.png" class="img-fluid mx-auto mt-3" width="100" alt="p2">
+                    </div>
                     <div class="card-body">
                         <p class="card-text texto">Consulta Externa</p>
                         <!--Boton-Modal de información sobre los programas-->

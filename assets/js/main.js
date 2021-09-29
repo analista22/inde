@@ -68,5 +68,23 @@ $(document).ready(function () {
             $("#cedulapaciente").attr("disabled",false);
         }
     });
+
+    //ocultar imagenes cuando se activa la accion hover
+    $('#prom1').on({
+        mouseenter: function(){
+            $('#invisible').show();
+        },
+        mouseleave: function(){
+            $('#invisible').hide();
+        }
+    });
+    $('#prom2').on({
+        mouseenter: function(){
+            $('#invisible2').show();
+        },
+        mouseleave: function(){
+            $('#invisible2').hide();
+        }
+    });
     
 });
