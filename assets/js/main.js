@@ -70,6 +70,10 @@ $(document).ready(function () {
     });
 
     //ocultar imagenes cuando se activa la accion hover
+    $('#invisible').hide();
+    $('#invisible2').hide();
+    $('#invisible3').hide();
+    
     $('#prom1').on({
         mouseenter: function(){
             $('#invisible').show();
@@ -84,6 +88,14 @@ $(document).ready(function () {
         },
         mouseleave: function(){
             $('#invisible2').hide();
+        }
+    });
+    $('#prom3').on({
+        mouseenter: function(){
+            $('#invisible3').show();
+        },
+        mouseleave: function(){
+            $('#invisible3').hide();
         }
     });
     

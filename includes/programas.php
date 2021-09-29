@@ -102,6 +102,7 @@
                 <div class="card efect_three efect mb-5">
                     <div class="img_prom03">
                         <img src="assets/img/icono2.png" class="img-fluid mx-auto mt-3" width="100" alt="p2">
+                        <img src="assets/img/invisible.png" id="invisible3" class="img-fluid mx-auto mt-3" width="100" alt="p1">   
                     </div>
                     <div class="card-body">
                         <p class="card-text texto">Consulta Externa</p>
