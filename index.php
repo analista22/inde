@@ -54,7 +54,7 @@
   </div>
 </section>
 
-<div class="container-fluid gris p-3">
+<div class="container-fluid gris p-5">
   <h2 class="text-center mb-5 font-weight-bold titulo">Aliados</h2>
   <div class="row">
     <div class="col-md-2">

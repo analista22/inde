@@ -46,6 +46,7 @@
             echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
         }
     };
+    
     // Validar Campos Formularios
     function validar($data){
         $data = trim($data);

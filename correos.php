@@ -2,7 +2,7 @@
 
 include('includes/funciones.php');
 
-
+// Envio de correo de la seccion contacto
 if (isset($_POST['form_contact'])) {
     $tipo_user = validar($_POST['usuario']);
     $nombre = validar($_POST['namep']);
@@ -49,10 +49,9 @@ if (isset($_POST['form_contact'])) {
             'Mensaje: ' . $mensaje . '<br>';
         enviar($body, $correo, $alerta, $ruta, $asunto);
     }
-
-    //echo $nombrep, $apellidop, $nombrea, $apellidop, $email, $telefono, $mensaje;
 }
 
+//envio de correo en la seccion de trabaja con nosotros
 if (isset($_POST['btn-postulacion'])) {
 
     $nombres = $_POST['nameandp'];
@@ -97,6 +96,7 @@ if (isset($_POST['btn-postulacion'])) {
     }
 }
 
+//envio de correo en la seccion de PQRSF
 if (isset($_POST['btn_peticion'])) {
     $nombres = validar($_POST['nombres']);
     $apellidos = validar($_POST['apellidos']);

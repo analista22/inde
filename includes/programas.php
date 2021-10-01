@@ -4,7 +4,7 @@
     <p class="text-start mb-5 text-center texto">Nuestros programas se realizan a partir de ciclos estratégicos</p>
     </div>
     
-    <div class="container text-center prom ">
+    <div class="container text-center prom">
         <div class="row d-flex justify-content-center">
             <div id="prom1" class="col-md-4">
                 <div class="card efect_one efect mb-5">
@@ -187,6 +187,6 @@
                 </div>    
             </div>
         </div>
-
+        <a href="contacto.php"><button type="button" class="btn btn-primary mb-5">Solicitar Consulta</button></a>
     </div>
 </div>

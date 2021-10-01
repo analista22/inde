@@ -3,7 +3,19 @@
 <?php include('includes/header.php') ?>
 <?php include('includes/efecto_inicio.php') ?>
 <?php include('pqrs.php') ?>
-
+<div id="bienvenida_tnosotros" class="container-fluid p-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <img src="assets/img/cerebroColor.png" class="img-thumbail wow animate__fadeInLeft" alt="bienvenida" width="150px">
+            </div>
+            <div class="col-md-6">
+                <p class="titulo titulo_portal  wow animate__fadeInRight"> Bienvenido al portal de Talento Humano <br>
+                Te estamos Buscando !!</p>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="wave-container">
     <h3 class="text-center mb-5 mt-5 titulo text-white">¿Porque Nosotros?</h3>
     <div class="container">
