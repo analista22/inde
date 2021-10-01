@@ -23,9 +23,9 @@
         </div>
     </div>
 </div>
-<section id="#inicio" class="container p-4 mt-4">
-    <p class="mb-3 texto">Información General sedes</p>
-    <ul class="nav nav-tabs border-bottom border-3 border-dark mb-5" id="myTab" role="tablist">
+<section id="#inicio" class="container mt-4">
+    <h3 class="mb-5 titulo">Información General sedes</h3>
+    <ul class="nav nav-tabs mb-5" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
             <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#cedros" type="button" role="tab" aria-controls="home" aria-selected="true">Cedros</button>
         </li>
@@ -42,7 +42,7 @@
     <div class="tab-content" id="myTabContent">
         <div class="tab-pane fade show active" id="cedros" role="tabpanel" aria-labelledby="home-tab">
             <div class="row">
-                <div class="col-md-4 ml-2">
+                <div class="col-md-4">
                     <i class="fas fa-home"></i> Dirección
                     <p>Cra. 22 #142-63</p>
 
@@ -59,6 +59,7 @@
                         <li><i class="fas fa-phone-alt"></i> No Disponible</li>
                         <li><i class="fab fa-whatsapp"></i> 3173642189</li>
                     </ul>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.2553655785737!2d-74.05154480594399!3d4.725647591702875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f8541dd9f711d%3A0x5744df0078adb633!2zQ3JhLiAyMiAjMTQyLTYzLCBVc2FxdcOpbiwgQm9nb3TDoQ!5e0!3m2!1ses!2sco!4v1627068198976!5m2!1ses!2sco" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" class="border border-dark border-2 mt-4 rounded-2"></iframe>
                 </div>
                 <div class="col-md-4">
                     <i class="far fa-clock"></i> Horarios
@@ -91,6 +92,7 @@
                         <li><i class="fas fa-phone-alt"></i> (601)7443584</li>
                         <li><i class="fab fa-whatsapp"></i> 3186085076</li>
                     </ul>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.048341935111!2d-74.1019773856865!3d4.585345393924863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99034d57cee7%3A0x1a34473cb8b99241!2sEmmanuel%20IPS%20-%20Consulta%20Externa!5e0!3m2!1ses!2sco!4v1627071144895!5m2!1ses!2sco" width="250" height="250" allowfullscreen="" loading="lazy" class="mt-4 border border-dark border-2 rounded-2"></iframe>
                 </div>
                 <div class="col-md-4">
                     <i class="far fa-clock"></i> Horarios
@@ -124,6 +126,7 @@
                         <li><i class="fas fa-phone-alt"></i> (601)4431850</li>
                         <li><i class="fab fa-whatsapp"></i> No disponible</li>
                     </ul>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.2677025385974!2d-74.05893688568632!3d4.723496642775782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f853efed8b501%3A0xde37b9c6092016bf!2zQ2wuIDEzNiAjIzUyYS00NiwgQm9nb3TDoQ!5e0!3m2!1ses!2sco!4v1627071580358!5m2!1ses!2sco" width="250" height="250" allowfullscreen="" loading="lazy" class="mt-4 border border-dark border-2 rounded-2"></iframe>
                 </div>
                 <div class="col-md-4">
                     <i class="far fa-clock"></i> Horarios
@@ -156,6 +159,7 @@
                         <li><i class="fas fa-phone-alt"></i> (601)4431850</li>
                         <li><i class="fab fa-whatsapp"></i> No Disponible</li>
                     </ul>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.391462485491!2d-74.0308773548322!3d4.701864773570417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f91a6414fbb39%3A0xe79cb9393e8b8759!2sCl%C3%ADnica%20Emmanuel!5e0!3m2!1ses!2sco!4v1628536101158!5m2!1ses!2sco" width="250" height="250" allowfullscreen="" loading="lazy" class="border border-dark border-2"></iframe>
                 </div>
                 <div class="col-md-4">
                     <i class="far fa-clock"></i> Horarios
@@ -279,14 +283,18 @@
         </div>
     </div>
 </div>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#6DADF7" fill-opacity="1" d="M0,128L60,160C120,192,240,256,360,250.7C480,245,600,171,720,165.3C840,160,960,224,1080,218.7C1200,213,1320,139,1380,101.3L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
-<section class="wave-container">
+
+<div class="container-fluid mt-5 mb-5 gris p-5 text-center">
+    <h2>Llena el Formulario o llamanos a la linea de atención &nbsp;&nbsp;&nbsp;&nbsp; <i class=" fas fa-mobile-alt"></i> 7433693 - 4431890</h2>
+</div>
+
+<section class="mt-5">
     <div class="container">
         <h3 class="mb-3">Formulario de contacto</h3>
         <form class="needs-validation" id="formulario" action="correos.php" method="POST" enctype="multipart/form-data" novalidate>
             <div class="form-group mb-4">
                 <label class="col-form-label col-form-label-sm wow animate__fadeInDown" for="inputSmall">Tipo de usuario</label>
-                <select class="form-select form-select-sm wow animate__fadeInDown condi" aria-label="Default select example wow animate__fadeInLeftBig" name="usuario" id="usuario" required>
+                <select class="form-select form-select-sm wow animate__fadeInDown border border-4" aria-label="Default select example wow animate__fadeInLeftBig" name="usuario" id="usuario" required>
                     <option selected disable value="">Selecciona</option>
                     <option value="paciente">Paciente </option>
                     <option value="acudiente">Acudiente</option>
@@ -301,21 +309,21 @@
                     <h4>Datos de Solicitud</h4>
                     <div class="form-group">
                         <label class="col-form-label col-form-label-sm wow animate__fadeInDown" for="inputSmall">Nombres*</label>
-                        <input class="form-control form-control-sm wow animate__fadeInLeftBig" id="namep" name="namep" type="text" data-validation="alphanumeric" placeholder="ingresa los nombres" id="inputSmall" required>
+                        <input class="form-control form-control-sm wow animate__fadeInLeftBig border border-4" id="namep" name="namep" type="text" data-validation="alphanumeric" placeholder="ingresa los nombres" id="inputSmall" required>
                         <div class="invalid-feedback">
                             Porfavor ingresa los nombres
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="col-form-label col-form-label-sm wow animate__fadeInDown" for="inputSmall">Apellidos*</label>
-                        <input class="form-control form-control-sm wow animate__fadeInLeftBig" id="lastnamep" name="lastnamep" type="text" placeholder="ingresa los apellidos" id="inputSmall" required>
+                        <input class="form-control form-control-sm wow animate__fadeInLeftBig border border-4" id="lastnamep" name="lastnamep" type="text" placeholder="ingresa los apellidos" id="inputSmall" required>
                         <div class="invalid-feedback">
                             Porfavor ingresa los apellidos
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="col-form-label col-form-label-sm wow animate__fadeInDown" for="inputSmall">Tipo de Identificación*</label>
-                        <select class="form-select form-select-sm wow animate__fadeInDown" aria-label="Default select example wow animate__fadeInLeftBig" id="tipoid" name="tipoid" required>
+                        <select class="form-select form-select-sm wow animate__fadeInDown border border-4" aria-label="Default select example wow animate__fadeInLeftBig" id="tipoid" name="tipoid" required>
                             <option selected disable value="">Selecciona</option>
                             <option value="tarjeta de identidad">Tarjeta de Identidad </option>
                             <option value="cedula">Cedula</option>
@@ -326,30 +334,30 @@
                     </div>
                     <div class="form-group">
                         <label class="col-form-label col-form-label-sm wow animate__fadeInDown" for="inputSmall">N.identificación*</label>
-                        <input class="form-control form-control-sm wow animate__fadeInLeftBig" id="cedula" name="cedula" type="text" placeholder="ingresa el numero de identificación" id="inputSmall" required>
+                        <input class="form-control form-control-sm wow animate__fadeInLeftBig border border-4" id="cedula" name="cedula" type="text" placeholder="ingresa el numero de identificación" id="inputSmall" required>
                         <div class="invalid-feedback">
                             Porfavor ingresa el numero de identificacion
                         </div>
                     </div>
                     <div id="datos_paciente" class="mb-5">
-                        <hr class="border-bottom border-3 border-dark">
+                        <hr class="border-bottom border-3 border-4">
                         <div class="form-group">
                             <label class="col-form-label col-form-label-sm wow animate__fadeInDown" for="inputSmall">Nombres del paciente*</label>
-                            <input class="form-control form-control-sm wow animate__fadeInLeftBig" id="namepa" name="namepa" type="text" data-validation="alphanumeric" placeholder="ingresa los nombres" id="inputSmall" required>
+                            <input class="form-control form-control-sm wow animate__fadeInLeftBig border border-4" id="namepa" name="namepa" type="text" data-validation="alphanumeric" placeholder="ingresa los nombres" id="inputSmall" required>
                             <div class="invalid-feedback">
                                 Porfavor ingresa los nombres
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-form-label col-form-label-sm wow animate__fadeInDown" for="inputSmall">Apellidos del paciente*</label>
-                            <input class="form-control form-control-sm wow animate__fadeInLeftBig" id="apellidopa" name="apellidopa" type="text" data-validation="alphanumeric" placeholder="ingresa los nombres" id="inputSmall" required>
+                            <input class="form-control form-control-sm wow animate__fadeInLeftBig border border-4" id="apellidopa" name="apellidopa" type="text" data-validation="alphanumeric" placeholder="ingresa los nombres" id="inputSmall" required>
                             <div class="invalid-feedback">
                                 Porfavor ingresa los apellidos
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="col-form-label col-form-label-sm wow animate__fadeInDown" for="inputSmall">Tipo de Identificación paciente*</label>
-                            <select class="form-select form-select-sm wow animate__fadeInDown" aria-label="Default select example wow animate__fadeInLeftBig" id="tipoidpa" name="tipoidpa" required>
+                            <select class="form-select form-select-sm wow animate__fadeInDown border border-4" aria-label="Default select example wow animate__fadeInLeftBig" id="tipoidpa" name="tipoidpa" required>
                                 <option selected disable value="">Selecciona</option>
                                 <option value="tarjeta de identidad">Tarjeta de Identidad </option>
                                 <option value="cedula">Cedula</option>
@@ -360,7 +368,7 @@
                         </div>
                         <div class="form-group">
                             <label class="col-form-label col-form-label-sm wow animate__fadeInDown" for="inputSmall">N.identificación paciente*</label>
-                            <input class="form-control form-control-sm wow animate__fadeInLeftBig" id="cedulapaciente" name="cedulapaciente" type="text" placeholder="ingresa el numero de identificación" id="inputSmall" required>
+                            <input class="form-control form-control-sm wow animate__fadeInLeftBig border border-4" id="cedulapaciente" name="cedulapaciente" type="text" placeholder="ingresa el numero de identificación" id="inputSmall" required>
                             <div class="invalid-feedback">
                                 Porfavor ingresa el numero de identificacion
                             </div>
@@ -385,28 +393,28 @@
                 <div class="col-md-6">
                     <div class="form-group">
                         <label class="col-form-label col-form-label-sm wow animate__fadeInDown" for="inputSmall">Correo*</label>
-                        <input class="form-control form-control-sm wow animate__fadeInLeftBig" name="email" type="email" placeholder="ingresa tu correo" id="inputSmall" required>
+                        <input class="form-control form-control-sm wow animate__fadeInLeftBig border border-4" name="email" type="email" placeholder="ingresa tu correo" id="inputSmall" required>
                         <div class="invalid-feedback">
                             Porfavor ingresa el correo
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="col-form-label col-form-label-sm wow animate__fadeInDown" for="inputSmall">Telefono*</label>
-                        <input id="telefono" class="form-control form-control-sm wow animate__fadeInLeftBig" name="phone" type="text" placeholder="ingresa tu numero de celular" id="inputSmall" required>
+                        <input id="telefono" class="form-control form-control-sm wow animate__fadeInLeftBig border border-4" name="phone" type="text" placeholder="ingresa tu numero de celular" id="inputSmall" required>
                         <div class="invalid-feedback">
                             Porfavor ingresa el numero de telefono
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="col-form-label col-form-label-sm wow animate__fadeInDown" for="inputSmall">Eps*</label>
-                        <input class="form-control form-control-sm wow animate__fadeInLeftBig" name="eps" type="text" placeholder="ingresa tu eps" id="inputSmall" required>
+                        <input class="form-control form-control-sm wow animate__fadeInLeftBig border border-4" name="eps" type="text" placeholder="ingresa tu eps" id="inputSmall" required>
                         <div class="invalid-feedback">
                             Porfavor ingresa tu eps
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="exampleTextarea" class="col-form-label-sm wow animate__fadeInDown">Solicitud*</label>
-                        <textarea class="form-control form-control-sm mb-3 wow animate__fadeInLeftBig" name="textarea" id="exampleTextarea" placeholder="Ingresa tu solicitud de manera clara..." rows="3" required></textarea>
+                        <textarea class="form-control form-control-sm mb-3 wow animate__fadeInLeftBig border border-4" name="textarea" id="exampleTextarea" placeholder="Ingresa tu solicitud de manera clara..." rows="3" required></textarea>
                         <div class="invalid-feedback">
                             Porfavor ingresa tu solicitud
                         </div>

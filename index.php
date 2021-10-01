@@ -8,13 +8,12 @@
     <?php include('includes/programas.php') ?>
   </div>
 </div>
-<div class="container-fluid color_fondo">
-  <div id="bienvenido" class="container p-5">
+<div class="container-fluid color_fondo p-5">
+  <div id="bienvenido" class="container">
     <div class="row">
       <div class="col-md-6 text-left text-white p-3 wow animate__fadeInDown">
         <h3 class="titulo text-white mb-2">Bienvenido a INDE</h3>
-        <p class="texto mt-3 text-justify">Emanuel INDE se dedica a mejorar la calidad de vida de los pacientes con compromisos neurologicos y cognitivos, a través de un proceso de rehabilitación integral que parte desde el modelo integral Bio-Psi-
-          co-Socio-cultural, donde se toma al ser humano como un individuo único con características orgánicas, cognitivas, afectivas.
+        <p class="texto mt-3 d-flex flex-wrap align-content-center">Emanuel INDE se dedica a mejorar la calidad de vida de los pacientes con compromisos neurologicos y cognitivos, a través de un proceso de rehabilitación integral que parte desde el modelo integral BioPsicoSocio cultural, donde se toma al ser humano como un individuo único con características orgánicas, cognitivas, afectivas.
         </p>
       </div>
       <div class="col-md-6 p-3 wow animate__fadeInDown">
@@ -24,7 +23,7 @@
   </div>
 </div>
 
-<section class="container mision mb-5 mt-5">
+<section class="container mision mb-5 mt-5 p-5">
   <div class="row">
     <div class="col-md-4 text-center border-end p-3 wow animate__fadeInLeft">
       <h4 class="titulo mb-2">Mision</h4>
