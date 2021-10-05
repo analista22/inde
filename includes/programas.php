@@ -187,6 +187,6 @@
                 </div>    
             </div>
         </div>
-        <a href="contacto.php"><button type="button" class="btn btn-primary mb-5">Solicitar Consulta</button></a>
+        <a href="contacto.php#inicio"><button type="button" class="btn btn-primary mb-5">Solicitar Consulta</button></a>
     </div>
 </div>

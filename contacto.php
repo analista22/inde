@@ -23,7 +23,7 @@
         </div>
     </div>
 </div>
-<section id="#inicio" class="container mt-4">
+<section id="inicio" class="container mt-4">
     <h3 class="mb-5 titulo">Información General sedes</h3>
     <ul class="nav nav-tabs mb-5" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
